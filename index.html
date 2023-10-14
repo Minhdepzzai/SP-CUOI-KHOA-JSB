@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="taskbar" >
+        
+            <div class="icon-app" >
+                <img src="vscode.png" alt="">    
+            </div>
+         
+            <div class="taskbar-box">
+                <a href="#top">
+                    <i class="fa fa-home w3-xxlarge"></i>
+                    <p id="home">Trang Chủ</p>
+            </a></div>
+            <div class="taskbar-box">
+                <a href="#aboutpp">
+                    <i class="fa fa-user w3-xxlarge"></i>
+                    <p id="about">Thông Tin</p>
+            </a></div>
+            <div class="taskbar-box">
+                <a href="#imagepp">
+                    <i class="fa fa-eye w3-xxlarge"></i>
+                    <p id="img">Hình Ảnh</p>
+                </a>
+                </div>
+            <div class="taskbar-box">
+                <a href="#downloadpp">
+                <i class="fa fa-download w3-xxlarge"></i>  
+                    <p id="download">Tải Về</p>  
+                </a>
+            </div>
+            <div class="taskbar-box" id="change-lang">
+                <i class="fa fa-language w3-xxlarge"></i>
+                <p id="lang-text">VN</p>
+            </div>
+        
+    </div>
+    <!-- home -->
+<div >
+    <div class="home" >
+        <b><h1 class="title">Visual Studio Code</h1></b>
+        <h2 class="title" id="title1">Công Cụ Chỉnh Sửa Code</h2>
+        <div class="home-pic" >
+            <img src="Visual_Studio_Code_1.35.png" alt="">
+        </div>
+    </div>
+    <div class="home-icon" id="aboutpp">
+        <div class="home-box">
+            <a href="">
+                <div class="home-box-pic"><i class="fa fa-lightbulb-o w3-xxlarge"></i></div>      
+                <p class="home-box-text-1" id="text1">Tối Ưu Hoá</p>  
+            </a>
+        </div>
+        <div class="home-box">
+            <a href="">
+                <div class="home-box-pic"><img src="debug-alt.svg" alt="">  </div>    
+                <p class="home-box-text-2" id="text2">Chạy Và Sửa Lỗi</p>  
+            </a>
+        </div>
+        <div class="home-box">
+            <a href="">
+                <div class="home-box-pic"><img src="GitHub-logo.png" alt="">   </div>
+                <p class ="home-box-text-3" id="text3">Git commands</p>  
+            </a>
+        </div>
+        <div class="home-box">
+            <a href="">
+                <div class="home-box-pic"><img src="ext.png" alt=""></div>
+                <p class="home-box-text-4" id="text4">Công Cụ Hỗ Trợ</p>  
+            </a>
+        </div>
+    </div>
+</div>
+    
+    
+    <div class="para-1" >
+        <div class="container">
+            <div class="para-1-pic">
+                <img src="home-intellisense.svg" alt="">
+            </div>
+            <div class="para-1-blog">
+                <h2 class="home-box-text-1" id="text_one">Tối ưu hoá</h2>
+                <p id="text_para1" >
+                    IntelliSense trong Microsoft Visual Studio Code là tính năng thông minh giúp nhà phát triển viết code hiệu quả hơn. Tích hợp gợi ý tự động, hoàn thành mã và thông báo lỗi ngay khi viết, IntelliSense cung cấp thông tin về hàm, lớp và API, giúp tìm hiểu và sử dụng chúng dễ dàng. Đồng thời, nó cảnh báo về lỗi cú pháp và logic, giúp tiết kiệm thời gian sửa lỗi sau này. IntelliSense là công cụ quan trọng giúp tăng năng suất và chất lượng phát triển phần mềm.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="para-2">
+        <div class="container">
+            
+            <div class="para-2-blog">
+                <h2 class="home-box-text-2" id="text_two">Chạy và Sửa Lỗi</h2>
+                <p id="text_para2" >
+                    Run and Debug trong Microsoft Visual Studio Code là tính năng quan trọng cho phép chạy và gỡ lỗi mã nguồn một cách thuận tiện. Tích hợp trong môi trường phát triển, bạn có thể thực hiện kiểm tra ứng dụng bằng tính năng Run và theo dõi từng bước của mã nguồn để gỡ lỗi thông qua tính năng Debug. Điều này giúp tối ưu hóa quá trình phát triển và đảm bảo chương trình hoạt động đúng như mong đợi.
+            </div>
+            <div class="para-1-pic">
+                <img src="home-debug.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="para-2">
+        <div class="container">
+            
+            
+            <div class="para-1-pic">
+                <img src="home-git.svg" alt="">
+            </div>
+            <div class="para-1-blog">
+                <h2 class="home-box-text-3" id="text_three">Git Comaands</h2>
+                <p id="text_para3" >
+                    Tính năng tích hợp Git commands trong Visual Studio Code giúp quản lý mã nguồn dễ dàng hơn. Bạn có thể thực hiện commit, pull, push, tạo nhánh và hợp nhất mà không cần rời khỏi môi trường phát triển. Điều này tăng năng suất và đảm bảo sự thống nhất trong việc quản lý phiên bản mã nguồn.
+            </div>
+        </div>
+    </div>
+    <div class="para-2">
+        <div class="container">
+            
+            <div class="para-4-blog">
+                <h2 class="home-box-text-4" id="text_four">Công Cụ Hỗ Trợ </h2>
+                <p id="text_para4" >
+                    Tính năng extensions trong Visual Studio Code cho phép mở rộng môi trường phát triển thông qua các phần mở rộng được cộng đồng phát triển. Bạn có thể thêm tính năng bổ sung như kiểm tra lỗi, quản lý dự án và tích hợp dịch vụ đám mây. Việc cài đặt và quản lý extensions dễ dàng, giúp tùy chỉnh Visual Studio Code cho phù hợp với nhu cầu của từng dự án và lập trình viên.
+            </div>
+            <div class="para-4-pic">
+                <img src="Hundreds-of-Extensions.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="photos" id="imagepp">
+        <div class="photos-pic">
+            <img src="hero.png" alt="">
+        </div>
+        <div class="buttons" >
+            <button  class="swiper-button-prev"></button>
+            <button class="swiper-button-next"></button>
+        </div>
+        
+    </div>
+
+    <!-- <div class="down">
+        <div class="down-container">
+            <div class="down-logo">
+                <div class="down-pic"><img src="windows-logo.png" alt=""></div>
+                <div ><button class="btn">Windows</button></div>
+            </div>
+            <div class="down-logo">
+                <div class="down-pic"><img src="linux-logo.png" alt=""></div>
+                <div class="down-btn-2">
+                <div ><button class="btn">Deb</button></div>
+                <div ><button class="btn">rpm</button></div>
+            </div>
+            </div>
+            <div class="down-logo">
+                <div class="down-pic"><img src="apple-logo.svg" alt=""></div>
+                <div ><button class="btn">
+                    <div class="down-box">
+                    <img class="icon-down" src="download-black.svg-black.svg" alt="">
+                    
+                    Mac</button></div>
+                </div>
+               
+            </div>
+        </div>
+    </div> -->
+<div class="down-container" id="downloadpp">
+    <div class="down-logo">
+        <div class="down-pic"><img src="windows-logo.png" alt=""></div>
+        <button class="down-btn">
+            <img class="icon-down" src="icons8-download-24.png" alt="">
+            Windows
+        </button>
+    </div>
+    <div class="down-logo">
+        <div class="down-pic"><img src="linux-logo.png" alt=""></div>
+        <div class="two">
+        <div class="down-btn">
+            <div class="down-btn-one">
+            <button class="down-btn one" >
+            <img class="icon-down" src="icons8-download-24.png" alt="">
+            Deb
+            
+        </button></div>
+        </div>
+        <div class="down-btn">
+            <div>
+            <button class="down-btn " >
+            <img class="icon-down" src="icons8-download-24.png" alt="">
+            Deb
+        </button></div>
+        </div>
+    </div>
+    </div>
+    <div class="down-logo">
+        <div class="down-pic"><img src="apple-logo.svg" alt=""></div>
+        <button class="down-btn">
+            <img class="icon-down" src="icons8-download-24.png" alt="">
+            Mac
+        </button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="index.js" ></script>    
+    
+</body>
+
+</html>
